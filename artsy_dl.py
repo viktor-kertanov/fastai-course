@@ -73,7 +73,7 @@ def save_imgs_on_local_machine(image_urls: dict[str]):
             print(f'File already exists: {savepath}')
 
 if __name__ == '__main__':
-    MONET_URL = 'https://www.artsy.net/artist/pierre-auguste-renoir'
+    MONET_URL = 'https://www.artsy.net/artist/paul-cezanne'
     SAVE_PATH_MAIN = 'datasets/painters/'
     
     image_urls = extract_image_urls(MONET_URL, max_page=None)

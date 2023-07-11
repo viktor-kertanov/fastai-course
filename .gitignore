@@ -1,3 +1,6 @@
 env
 *.jpg
 MetObjects.csv
+.ipynb_checkpoints
+**/.DS_Store
+datasets/painters/.DS_Store
